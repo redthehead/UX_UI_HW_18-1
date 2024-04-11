@@ -1,0 +1,145 @@
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+@media screen and (max-width: 430px) {
+    img.bg {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
+/* Header */
+header{
+    background-color: #F4E0B8;
+    opacity: 85%;
+    border-radius: 10px;
+    padding: 10px;  
+}
+.headerName {
+    font-family: "Josefin Slab";
+    font-size: 64px;
+    text-wrap: normal;
+    width: 317px;
+    height: 128px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+.headerJob {
+    font-family: "Khula";
+    font-size: 24px;
+}
+
+/* Navigation*/
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 430px;
+    height: 55px;
+ }
+ .homeItem,
+ .aboutItem,
+ .caseItem {
+    padding: 0px 25px 25px 0px;
+    font-family: "Khula";
+    font-size: 24px;
+    margin-top: 14px;
+ }
+ .homeItem {
+    padding-left: 17px;
+ }
+
+ /*About section*/
+ .portrait {
+    width: 288px;
+    height: 289px;
+    padding: 56px;
+    border-radius: 10px;
+ }
+ .sectionTitle {
+    font-family: "Khula";
+    font-size: 40px;
+ }
+ .description {
+    font-family: "Khula";
+    font-size: 24px;
+ }
+ .box {
+    background-color: #F4E0B8;
+    opacity: 85%;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ /* Case Studies*/
+ .caseTitle {
+    font-family: "Khula";
+    font-size: 32px;
+ }
+
+ /*Connect*/
+ .connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 307px;
+ }
+ button {
+    background-color: #f1c84a;
+    color: black;
+    border-radius: 10px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: "Khula";
+    text-align: center;
+ }
+ .socialButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ #socialButtonGit {
+    height: 24px;
+    width: 24px;
+ }
+ #socialButtonLinked {
+    height: 24px;
+    width: 24px;
+ }
+ /*Footer*/
+
+footer {
+    opacity: 0.85;
+    background-color: #f2daac;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 64px 15px 15px 15px;
+ }
+ .footerNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+ }
+ .homeItemFoot,
+ .aboutItemFoot,
+ .caseItemFoot {
+    font: "Khula";
+    font-size: 24px;
+    padding-bottom: 41px;
+    margin:0;
+ }
